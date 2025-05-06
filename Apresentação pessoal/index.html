@@ -5,19 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Curriculo de Alcides Diogenes</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="contatos">
+        <a href="https://api.whatsapp.com/send?phone=5588992876136&text=Oi%20Alcides,%20tudo%20bem?" target="_blank" class="whatsapp">
+            <img src="img\logowhatsapp.png" alt="Logo do WhatsApp" width="25" height="25">
+        </a>
+        <a href="https://www.linkedin.com/in/alcides-diogenes-3a07b7170/" target="_blank">
+            <img src="img/logolinkedin.png" alt="Logo do LinkedIn" widtg="30" height="20">
+        </a>
+        <a href="https://github.com/AlcidesDiogenes?tab=repositories" target="_blank">
+            <img src="img/logogithub.png" alt="Logo do GitHub" width="25" height="25">
+        </a>
+
+    </nav>
+
+    <nav class="menu">
+
+        <ul>
+            <li><a href="#sobre-min">Sobre Mim</a></li>
+            <li><a href="#portifolio">Portfólio</a></li>
+            <li><a href="#habilidades">Soft Skills</a></li>
+            <li><a href="#habilidades-tecnicas">Habilidades Técnicas</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+    </nav>
+
     <header>
+        <div class="container">
+
+        <div class="text-box">
         <h1>Bem-vindo à minha página pessoal!</h1>
         <h2>Olá, me chamo Alcides Diogenes</h2>
         <h3>Entusiasta em Full Stack</h3>
-        <img src="perfil.jpg" alt="Foto de Alcides Diogenes" width="200">
+        </div>
+
+        <div class="imagem-box">
+        <img src="perfil.jpg" alt="Foto de Alcides Diogenes" width="200" class="imagem-arredondada">
+        </div>
+
+        </div>
     </header>
 
     <section id="sobre-min">
         <h2>Sobre Mim</h2>
         <p>Sou um desenvolvedor apaixonado por tecnologia e programação. Estou sempre em busca de novos desafios e aprendizados.</p>
         <p>Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web.</p>
+
     </section>
 
     <section id="portifolio">
@@ -40,7 +77,7 @@
 
     <section id="habilidades-tecnicas">
         <h2>Habilidades Técnicas</h2>
-        <table>
+        <table border="1">
             <caption>Habilidades Técnicas</caption>
             <thead>
                 <tr>
